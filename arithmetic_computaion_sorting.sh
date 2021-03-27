@@ -5,3 +5,5 @@ read -p "Enter 2nd No. b :- " b
 read -p "Enter 3rd No. c :- " c
 result1=$(($a+$b*$c))
 echo "$result1"
+result2=$(($a*$b+$c))
+echo "$result2"
