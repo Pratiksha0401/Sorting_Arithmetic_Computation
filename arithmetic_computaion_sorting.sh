@@ -44,3 +44,9 @@ for (( i=3;i>=0;i-- ))
 do
    echo "${array1[i]}"
 done
+
+echo "Array after sorting in Ascending order"
+for (( i=0;i<4;i++ ))
+do
+   echo "${array1[i]}"
+done
